@@ -280,6 +280,8 @@ QList<BasePage*> InstallDialog::getPages()
         new InstallJavaPage("net.adoptium.java", "adoptium", tr("Adoptium")),
         // Azul
         new InstallJavaPage("com.azul.java", "azul", tr("Azul Zulu")),
+        // GraalVM
+        new InstallJavaPage("org.graalvm.java", "graalvm", tr("GraalVM")),
     };
 }
 
